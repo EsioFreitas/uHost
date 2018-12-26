@@ -27,6 +27,13 @@ body {
     margin: 8px;
     padding: 16px;
     vertical-align: middle;
+    border-radius: 2px;
+}
+
+.plan--highlight{
+    background-color: #19b84c;
+    color: white;
+    box-shadow: 2px 2px 2px 2px rgb(0,0,0,0.5);
 }
 
 #product-overview h1 {
