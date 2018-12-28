@@ -185,3 +185,29 @@ button:active{
     vertical-align: top;
 }
 
+.main__footer{
+    background-color: black;
+    margin: 0;
+    padding: 5px;;
+    text-align: center;
+
+}
+
+.main__ul li{
+    display: inline-block;
+    padding: 0; 
+    margin: 0;    
+}
+
+.main__ul li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-weight: bold;  
+    padding: 10px;
+    
+}
+
+ul.main__ul{
+    padding-inline-start: 0;
+}
