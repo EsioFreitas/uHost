@@ -51,6 +51,17 @@ main {
     border-color: #2ddf5c; 
 }
 
+.signup-form :invalid{
+    background: red;
+}
+
+button[disabled]{
+    color: #867f7f;
+    border: #867f7f;
+    background: #ccc;
+    cursor: not-allowed;
+}
+
 .signup-form input[type="checkbox"]{
     border: 1px solid #ccc;
     background: #ccc;
